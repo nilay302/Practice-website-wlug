@@ -43,7 +43,7 @@ jobs:
       run: |
         git config --global user.name nilay302
         git config --global user.email nilayshirke52@gmail.com
-        git remote set-url origin https://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@github.com/practice-website-wlug
+        git remote set-url origin https://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@github.com/Practice-website-wlug
         npm run deploy
       env:
           user_name: 'github-actions[bot]'
