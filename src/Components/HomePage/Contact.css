@@ -1,0 +1,136 @@
+@font-face {
+    font-family: Helvetica;
+    src: url("../../fonts/Helvetica\ Neue\ Medium\ Extended.otf");
+}
+
+#h-1{
+    color: white;
+    font-size: 85px;
+    font: normal normal bold 85px/102px Helvetica;
+}
+
+#h-2{
+    color: #FFB281;
+    font-size: 85px;
+}
+
+#des{
+    color: white;
+    font-size: 20px;
+    font: normal normal 20px/24px Helvetica;
+}
+
+.sub-head{
+    padding-left: 10px;
+    font-size: 17px;
+    color: white;
+    font: normal normal medium 17px/26px Poppins;
+}
+
+#cnt{
+    padding: 20px;
+    padding-right: 0%;
+}
+
+#fname{
+    background-color: #4C565D;
+    color: white;
+}
+
+#lname{
+    background-color: #4C565D;
+    color: white;
+}
+
+#mail{
+    background-color: #4C565D;
+    color: white;
+}
+
+#message{
+    background-color: #4C565D;
+    color: white;
+}
+
+#bt{
+    background-color: #8668F2;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 15px;
+    font: normal normal lighter 20px/24px Helvetica;
+}
+
+#con{
+    display: block;
+    padding: 25px;
+    border: 7px solid #8668F2;
+    border-radius: 60px;
+    opacity: 1;
+    width: 550px;
+    background-color: #D295C2;
+}
+
+#head-con{
+    line-height: 1;
+    color: white;
+    padding: 20px;
+    font-size: 26px;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.con-1{
+    margin: 18px;
+    padding: 17px;
+    color: white;
+    border: 7px solid #8668F2;
+    border-radius: 40px;
+    opacity: 1;
+    filter: blur(0px);
+    display: flex;
+    background-color: #4C565D;
+}
+
+.con-2{
+    margin: 28px;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    /* text-align: center; */
+    border: 7px solid #8668F2;
+    border-radius: 40px;
+    opacity: 1;
+    filter: blur(0px);
+    justify-content: space-evenly;
+    display: flex;
+    background-color: #4C565D;
+}
+
+.con-2:hover{
+    cursor: pointer;
+}
+
+.left-content{
+    font-size: 85px;
+    color: white;
+    padding-right: 30px;
+}
+
+.right-content h3{
+    font-size: 25px;
+}
+
+.right-content p{
+    font-size: 15px;
+    color: #8790A2;
+}
+
+.right-content h3{
+    font-size: 25px;
+    font-family:Helvetica;
+}
+
+.input_box_contact{
+    border-radius: 12px;
+}

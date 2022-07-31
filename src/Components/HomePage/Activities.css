@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Helvetica;
+    src: url("../../fonts/Helvetica\ Neue\ Medium\ Extended.otf");
+}
+
+#h1{
+    text-align: center;
+    color: #FFB281;
+    /* font-size: 85px; */
+    font: normal normal bold 85px/102px Helvetica;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+#cd-1,
+#cd-2,
+#cd-3{
+    background-color: #242632;
+    color: #8790A2;
+    border-radius: 40px;
+    border-bottom: solid 20px #B9B6FF;
+}
+
+#btn{
+    text-align: center;
+    padding: 10px;
+}
+
+.btn-success, .btn-success:hover, .btn-success:active, .btn-success:visited {
+    background-color: #242632;
+}

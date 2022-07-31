@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Helvetica;
+    src: url("../../fonts/Helvetica\ Neue\ Medium\ Extended.otf");
+  
+}
+
+.home{
+    text-align: center;
+    color: white;
+    padding-left: 110px;
+    padding-top: 50px;
+    padding-right: 0px;
+
+}
+.main-homepage{
+    position: relative;
+    margin-top: -32%;
+    z-index: -1;
+}
+
+.home h1{
+    color: #FFB281;
+    font: normal normal bold 85px/102px Helvetica;
+    /* font-size: 85px; */
+}
+
+.home p{
+    font-size: 48px;
+    font: normal normal medium 48px/72px Poppins;
+}
+
+.hd{
+    width: 100%;
+}
+
+/* .main-con{
+    padding-top: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+} */
+
+/* .hexagon_outer {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    width: 360px;
+    height: 360px;
+    z-index: 1;
+    background: transparent linear-gradient(40deg, #FDA5E6 20%, #9F9BEA 80%) 0% 0% no-repeat padding-box;
+} */
+
+/* .hexagon-1{
+    height: 0;
+    width: 150px;
+    border-top: 150px solid #4F486A;
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+    position: relative;
+    border-bottom: 20px solid transparent;
+} */
+
+/*Media Query*/
+
+@media (min-width:218px) and (max-width:468px){
+    .home{
+        padding-left: 30px;
+        width: 100%;
+    }
+    .home h1{
+        font-size: 35px;
+    }
+    .home p{
+        font-size: 12px;
+    }
+}
+
+@media (min-width:467px) and (max-width:768px){
+    .home{
+        padding-left: 50px;
+        padding-right: 0px;
+    }
+    .home h1{
+        font-size: 45px;
+    }
+    .home p{
+        font-size: 18px;
+    }
+}
+
+@media (min-width:769px) and (max-width:918px) {
+    .home{
+        padding-left: 40px;
+        padding-right: 0px;
+    }
+    .home h1{
+        font-size: 55px;
+    }
+
+    .home p{
+        font-size: 18px;
+    }
+}
+
+@media (min-width:918px) and (max-width:1023px) {
+    .home{
+        padding-left: 80px;
+        padding-right: 0px;
+    }
+    .home h1{
+        font-size: 65px;
+    }
+
+    .home p{
+        font-size: 28px;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1375px) {
+    .home{
+        padding-left: 120px;
+        padding-top: 50px;
+    }
+    .home h1{
+        font-size: 75px;
+    }
+
+    .home p{
+        font-size: 38px;
+    }
+}

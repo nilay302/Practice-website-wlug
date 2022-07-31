@@ -1,0 +1,85 @@
+main{
+    padding: 10px;
+}
+
+.main-container{
+    display: flex;
+    z-index: 100;
+}
+
+.sidebar{
+    background-color: #242834;
+    color: white;
+    height: 760px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 20px;
+}
+
+.top_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+
+.logo {
+    font-size: 2px;
+    display: none;
+    visibility: hidden;
+}
+
+.des{
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+}
+
+.bars {
+    width: 40px;
+    font-size: 28px;
+}
+
+.hide {
+    display: none;
+}
+
+.link{
+    display: flex;
+    color: white;
+    gap: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-right: 4px solid transparent;
+    font-size: 22px;
+}
+
+.link:hover{
+    border-left: 4px solid #8668F2;
+    background: transparent linear-gradient(90deg, #8668F280 0%, #8668F21A 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+    color: #8668F2;
+}
+
+.active{
+    border-left: 4px solid #8668F2;
+    background: transparent linear-gradient(90deg, #8668F280 0%, #8668F21A 100%) 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+    color: #8668F2;
+}
+
+.icon{
+    font-size: 25px;
+}
+
+.link-text{
+    white-space: nowrap;
+    font-size: 20px;
+    padding-top: 8px;
+}
+
+.link:nth-child(3n+0){
+    text-align: center;
+    justify-content: center;
+    pointer-events: none;
+    color: #CABCFF;
+}
